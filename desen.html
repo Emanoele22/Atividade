@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevSolutions - Desenvolvimento de Software</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .section-title {
+      color: #343a40;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 10px;
+      display: inline-block;
+      margin: 30px 0;
+      text-align: center;
+      width: 100%;
+    }
+    .service-card {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease;
+      border-left: 4px solid #007bff;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    }
+    .service-icon {
+      font-size: 2rem;
+      color: #007bff;
+      margin-bottom: 15px;
+    }
+    .feature-list {
+      padding-left: 20px;
+    }
+    .feature-list li {
+      margin-bottom: 12px;
+      position: relative;
+      list-style-type: none;
+      padding-left: 30px;
+    }
+    .feature-list li:before {
+      content: "•";
+      color: #007bff;
+      font-size: 24px;
+      position: absolute;
+      left: 0;
+      top: -3px;
+    }
+    .highlight-box {
+      background-color: #e9f5ff;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 4px solid #007bff;
+    }
+    .tech-badge {
+      margin: 5px;
+      padding: 8px 15px;
+      background-color: #007bff;
+      color: white;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      display: inline-block;
+    }
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="imagem 1.png" alt="DevSolutions" width="65px">
+      DevSolutions
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html">Sobre</a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">
+            Serviços
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="desen.html">Desenvolvimento de Software</a>
+            <a class="dropdown-item" href="consul.html">Consultoria em Tecnologia</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contatos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h3 class="section-title">💻 Desenvolvimento de Software</h3>
+
+    <div class="service-card">
+      <div class="service-icon">🔧</div>
+      <h4>Soluções Personalizadas</h4>
+      <p>Criamos softwares sob medida que atendem às necessidades específicas de cada cliente:</p>
+      <ul class="feature-list">
+        <li>Sistemas internos para automatizar processos</li>
+        <li>Plataformas web e mobile completas</li>
+        <li>Interfaces intuitivas e experiências otimizadas</li>
+        <li>Soluções escaláveis e de fácil manutenção</li>
+      </ul>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🚀</div>
+      <h4>Nosso Processo</h4>
+      <p>Metodologia ágil e transparente para garantir os melhores resultados:</p>
+      <ul class="feature-list">
+        <li>Imersão no negócio do cliente para entender desafios</li>
+        <li>Definição conjunta de requisitos e objetivos</li>
+        <li>Desenvolvimento iterativo com feedback constante</li>
+        <li>Entrega dentro dos prazos com total transparência</li>
+      </ul>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🔄</div>
+      <h4>Modernização e Integração</h4>
+      <p>Transformamos sistemas legados em soluções modernas e eficientes:</p>
+      <ul class="feature-list">
+        <li>Atualização de tecnologias obsoletas</li>
+        <li>Migração para arquiteturas modernas</li>
+        <li>Integração entre sistemas diversos</li>
+        <li>Garantia de compatibilidade e performance</li>
+      </ul>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🛡️</div>
+      <h4>Qualidade e Segurança</h4>
+      <p>Compromisso com excelência técnica em todos os projetos:</p>
+      <ul class="feature-list">
+        <li>Testes automatizados em todas as etapas</li>
+        <li>Revisões de código e boas práticas</li>
+        <li>Proteção de dados e conformidade com LGPD</li>
+        <li>Monitoramento contínuo após a implantação</li>
+      </ul>
+    </div>
+    
+    <div class="highlight-box">
+        <h4>Tecnologias que Utilizamos</h4>
+        <div class="text-center">
+          <span class="tech-badge">JavaScript</span>
+          <span class="tech-badge">React</span>
+          <span class="tech-badge">Node.js</span>
+          <span class="tech-badge">Python</span>
+          <span class="tech-badge">Java</span>
+          <span class="tech-badge">.NET</span>
+          <span class="tech-badge">Flutter</span>
+          <span class="tech-badge">SQL</span>
+          <span class="tech-badge">MongoDB</span>
+          <span class="tech-badge">AWS</span>
+          <span class="tech-badge">Azure</span>
+        </div>
+      </div>
+  
+  </div>
+  <footer>
+    &copy; 2025 DevSolutions — Todos os direitos reservados.
+  </footer>
+</body>
+</html>

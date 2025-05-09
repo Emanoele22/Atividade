@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - DevSolutions</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?technology,office') center center/cover no-repeat;
+      color: rgb(0, 0, 0);
+      padding: 100px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .section-title {
+      margin: 50px 0 30px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .feature-box {
+      text-align: center;
+      padding: 20px;
+    }
+    .feature-box img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+    }
+    .testimonials {
+      background-color: #e9ecef;
+      padding: 60px 0;
+    }
+    .testimonial-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 30px;
+      text-align: center;
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .testimonial-card img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    .testimonial-card h5 {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+    .testimonial-card p {
+      font-size: 1rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><img src="imagem 1.png" alt="Logo" width="65px" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html">Sobre</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">
+            Serviços
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="desen.html">Desenvolvimento de Software</a>
+            <a class="dropdown-item" href="consul.html">Consultoria em Tecnologia</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contatos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <section class="hero">
+    <div class="container">
+      <h1>Transformamos ideias em soluções digitais</h1>
+      <p>Desenvolvimento de software e consultoria especializada para impulsionar o seu negócio.</p>
+    </div>
+  </section>
+
+
+  <div class="container">
+    <h2 class="section-title">Sobre a DevSolutions</h2>
+    <p>A DevSolutions é uma empresa dedicada à criação de soluções digitais inovadoras. Nossa missão é transformar ideias em realidade, oferecendo serviços de alto nível em desenvolvimento de software e consultoria em tecnologia.</p>
+    <p>Com uma equipe qualificada e apaixonada por tecnologia, trabalhamos de perto com nossos clientes para entender suas necessidades e entregar resultados que realmente façam a diferença.</p>
+  </div>
+
+  <div class="container">
+    <h2 class="section-title">Projetos Recentes</h2>
+    <div class="row">
+      <div class="col-md-4 feature-box">
+        <img src="projeto 1.png" alt="Projeto 1" />
+        <h4>Sistema de Automação</h4>
+        <p>Desenvolvimento de uma plataforma para automação de processos internos, com integração de APIs e interface amigável.</p>
+      </div>
+      <div class="col-md-4 feature-box">
+        <img src="projto 2.png" alt="Projeto 2" />
+        <h4>App Mobile</h4>
+        <p>Criamos um aplicativo mobile intuitivo para facilitar o atendimento ao cliente e melhorar a comunicação interna da empresa.</p>
+      </div>
+      <div class="col-md-4 feature-box">
+        <img src="projeto 3.png" alt="Projeto 3"  />
+        <h4>Redesign de Sistema</h4>
+        <p>Modernização de um sistema legado, implementando novos recursos e melhorando a experiência do usuário.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container testimonials">
+    <h2 class="section-title">O que nossos clientes dizem</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Carlos Pereira" />
+          <h5>Carlos Pereira</h5>
+          <p>"A DevSolutions transformou a forma como operamos nosso sistema interno. O desenvolvimento foi rápido e a equipe sempre muito transparente. Recomendo a todos!"</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="Ana Silva" />
+          <h5>Ana Silva</h5>
+          <p>"A consultoria que recebemos ajudou a otimizar nossos processos e aumentar a segurança de nossas aplicações. Os resultados são impressionantes. Agradecemos imensamente!"</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <img src="https://randomuser.me/api/portraits/men/35.jpg" alt="João Santos" />
+          <h5>João Santos</h5>
+          <p>"O trabalho realizado pela DevSolutions foi excelente. Não só entregaram o projeto no prazo, mas também superaram nossas expectativas com soluções inovadoras." </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 DevSolutions — Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
